@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "899739006861",
+    "firebase_url": "https://cadastrousuario-357c1.firebaseio.com",
+    "project_id": "cadastrousuario-357c1",
+    "storage_bucket": "cadastrousuario-357c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899739006861:android:acf8f19a714e426c",
+        "android_client_info": {
+          "package_name": "com.cursoandroid.cadastrousuario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899739006861-kee3oglblvbgp1kj5shp028rmcj60eeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursoandroid.cadastrousuario",
+            "certificate_hash": "0fe246c3169a932a42dcf94d1b20a0e239e20539"
+          }
+        },
+        {
+          "client_id": "899739006861-e5i3l23l8g97je4se405edlrof7ou80j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdsMcySucdEEsMTLAgdninRUZEeaoMixM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899739006861-e5i3l23l8g97je4se405edlrof7ou80j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

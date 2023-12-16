@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cursoandroid.exemplocheckbox.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:id="@+id/botaoMostrarId"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/checkBoxPapagaioId"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cão"
+        android:id="@+id/checkBoxCaoId"
+        android:checked="false"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/botaoMostrarId"
+        android:layout_toStartOf="@+id/botaoMostrarId" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gato"
+        android:id="@+id/checkBoxGatoId"
+        android:checked="false"
+        android:layout_below="@+id/checkBoxCaoId"
+        android:layout_alignLeft="@+id/checkBoxCaoId"
+        android:layout_alignStart="@+id/checkBoxCaoId" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Papagaio"
+        android:id="@+id/checkBoxPapagaioId"
+        android:checked="false"
+        android:layout_below="@+id/checkBoxGatoId"
+        android:layout_alignLeft="@+id/checkBoxGatoId"
+        android:layout_alignStart="@+id/checkBoxGatoId" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textoExibicaoId"
+        android:text="Mostrar"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/checkBoxPapagaioId"
+        android:layout_alignStart="@+id/checkBoxPapagaioId" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Quais animais de estimação você tem ?"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#030303" />
+
+</RelativeLayout>
