@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cursoandroid.gasolinaoualcool.MainActivity"
+    android:background="#94bd31">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="81dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Preço Álcool"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="42dp"
+        android:textColor="#415c00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Preço Gasolina"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:textColor="#415c00" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/precoAlcoolId"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:background="#ffffff"
+        android:padding="@dimen/padding_caixa_texto" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/precoGasolinaId"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:background="#ffffff"
+        android:padding="@dimen/padding_caixa_texto" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_botao_verificar"
+        android:id="@+id/botaoVerificarId"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/precoAlcoolId"
+        android:layout_alignLeft="@+id/precoAlcoolId"
+        android:layout_alignStart="@+id/precoAlcoolId"
+        android:layout_alignRight="@+id/precoGasolinaId"
+        android:layout_alignEnd="@+id/precoGasolinaId" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textoResultadoId"
+        android:layout_below="@+id/botaoVerificarId"
+        android:layout_alignLeft="@+id/botaoVerificarId"
+        android:layout_alignStart="@+id/botaoVerificarId"
+        android:layout_marginTop="23dp"
+        android:layout_alignRight="@+id/botaoVerificarId"
+        android:layout_alignEnd="@+id/botaoVerificarId"
+        android:textColor="#415c00" />
+
+</RelativeLayout>
